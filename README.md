@@ -22,6 +22,7 @@ npm run dev
 
 # Contracts
 - We embarked on an ambitious challenge to completely re-write our contracts from Solidity to Aptos Move over the course of 24 hours. You may find the Move contracts in the `backend` folder
+- You may check out our currently deployed instance [here](https://explorer.aptoslabs.com/account/0xd157a46accb1dd16122980064f2bfb90046ea134a26354ab5d1d7729a26b5855?network=devnet) (`https://explorer.aptoslabs.com/account/0xd157a46accb1dd16122980064f2bfb90046ea134a26354ab5d1d7729a26b5855?network=devnet`)
 
 ### Demo
 - [30s Demo](https://www.youtube.com/watch?v=GizKsFlJxIk)
