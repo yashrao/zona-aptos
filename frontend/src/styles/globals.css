@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add custom styles below */
+
+@font-face {
+  font-family: "ProximaNova";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/proxima-nova-regular.otf");
+}
+@font-face {
+  font-family: "ProximaNova-thin";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/proxima-nova-thin.otf") format("opentype");
+}
+@font-face {
+  font-family: "ProximaNova-light";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/proxima-nova-light.otf") format("opentype");
+}
+@font-face {
+  font-family: "ProximaNova-Semibold";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/proxima-nova-semibold.otf");
+}
+@font-face {
+  font-family: "ProximaNova-Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/proxima-nova-bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "ProximaNova-Black";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/proxima-nova-black.otf") format("opentype");
+}
+@font-face {
+  font-family: "ProximaNova-extrabold";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/proxima-nova-extrabold.otf") format("opentype");
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+html {
+  @apply bg-black text-white;
+}
+
+h1 {
+  font-family: "ProximaNova-extrabold", sans-serif;
+}
+
+@keyframes dust {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #2C2C2E;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #666;
+  border-radius: 3px;
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #666 #2C2C2E;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 180px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 9999;
+  bottom: -290%; /* Position the tooltip above the text */
+  left: 0%;
+  margin-left: -40px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}

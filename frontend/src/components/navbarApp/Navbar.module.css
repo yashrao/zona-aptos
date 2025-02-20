@@ -1,0 +1,36 @@
+.navItem {
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease, font-weight 0.3s ease;
+    color: #afafaf;
+    font-weight: normal;
+  }
+  
+  .navItem::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #23F98A;
+    transition: width 0.3s ease, left 0.3s ease;
+  }
+  
+  .navItem:hover {
+    color: #23F98A;
+    font-weight: bold;
+  }
+  
+  .navItem:hover::before {
+    width: 100%;
+    left: 0;
+  }
+  
+  .active {
+    color: #FFFFFF;
+  }
+  
+  .active:hover {
+    color: #23F98A;
+  }

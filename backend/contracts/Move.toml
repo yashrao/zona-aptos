@@ -1,0 +1,17 @@
+[package]
+name = "mvp_v1"
+version = "1.0.0"
+edition = "2024"
+authors = []
+upgrade_policy = "compatible" # for now
+
+[addresses]
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "dubai",
+    "type": "realestate",
+    "timezone": -16,
+    "timeDelay": 7
+  },
+  {
+    "name": "singapore",
+    "type": "realestate",
+    "timezone": -8,
+    "timeDelay": 7
+  },
+  {
+    "name": "hongkong",
+    "type": "realestate",
+    "timezone": -8,
+    "timeDelay": 8
+  },
+  {
+    "name": "london",
+    "type": "realestate",
+    "timezone": -7,
+    "timeDelay": 70
+  }
+]
