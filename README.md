@@ -20,10 +20,12 @@ npm run dev
 ```
 - Enjoy!
 
+# Contracts
+- Smart contracts were completely re-written from scratch (from Solidity to Aptos Move) over the course of 24 hours and can be found in the `backend` folder
+
 ### Demo
 - [30s Demo](https://www.youtube.com/watch?v=GizKsFlJxIk)
 - [Detailed Demo](https://www.youtube.com/watch?v=ChY4ZfY_8po)
-
 
 ### Images
 <img width="1512" alt="img1" src="https://github.com/zona-hk/ripple-zona/blob/main/readme_assets/Screenshot%202025-02-19%20at%206.12.57%E2%80%AFPM.png?raw=true">
