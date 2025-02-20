@@ -21,7 +21,7 @@ npm run dev
 - Enjoy!
 
 # Contracts
-- Smart contracts were completely re-written from scratch (from Solidity to Aptos Move) over the course of 24 hours and can be found in the `backend` folder
+- We embarked on an ambitious challenge to completely re-write our contracts from Solidity to Aptos Move over the course of 24 hours. You may find the Move contracts in the `backend` folder
 
 ### Demo
 - [30s Demo](https://www.youtube.com/watch?v=GizKsFlJxIk)
